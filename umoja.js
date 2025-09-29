@@ -7,7 +7,7 @@ document.getElementById('booking-form').addEventListener('submit', function(even
     const moveInDate = encodeURIComponent(document.getElementById('move-in-date').value);
 
     const message = `Booking Request: %0AName: ${name}%0AEmail: ${email}%0ARoom Type: ${roomType}%0AMove-in Date: ${moveInDate}`;
-    const phoneNumber = "+254717831209";
+    const phoneNumber = "+254711374759";
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
 
     // Open WhatsApp with the pre-filled message
